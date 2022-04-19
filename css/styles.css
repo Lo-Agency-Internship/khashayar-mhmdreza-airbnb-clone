@@ -1,0 +1,18 @@
+@import "reset.css";
+:root {
+  --blackColor: #222222;
+  --whiteColor: #fff;
+  --pinkColor: rgb(255, 56, 92);
+  --purpleCOlor: #6f019c;
+  --violetColor: #c6017e;
+}
+
+#page-wrapper {
+  background: linear-gradient(
+    to bottom,
+    var(--blackColor) 0%,
+    var(--blackColor) 20%,
+    var(--whiteColor) 20%,
+    var(--whiteColor) 100%
+  );
+}
