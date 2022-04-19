@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Circular;
+  src: url(../fonts/CircularStd-Medium.otf);
+}
+@font-face {
+  font-family: Circular;
+  src: url(../fonts/CircularStd-Bold.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Circular;
+  src: url(../fonts/CircularStd-Light.otf);
+  font-weight: light;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Cirucular, sans-serif;
+  text-transform: none;
+  letter-spacing: -0.09rem;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+body {
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
