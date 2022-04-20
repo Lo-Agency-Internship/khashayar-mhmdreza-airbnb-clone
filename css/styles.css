@@ -10,6 +10,7 @@
   --lightGrayColor: rgb(247, 247, 247);
 }
 
+
 body {
   background: linear-gradient(
     to bottom,
@@ -83,4 +84,83 @@ body {
   padding: 0;
   font-weight: 600;
   width: 100%;
+}
+
+
+/* ////////////////////////////////////////////////////////// */
+.hero 
+{
+  height: 48rem;
+  
+}
+.hero-pink
+{
+  margin-top: 8rem;
+
+  width: 100% ;
+  height: 38.166rem;
+  background-color:var(--pinkColor) ;
+  border-radius: 12px;
+}
+
+.hero-pink-text
+{
+  
+  text-align: center;
+   width: 100%;
+  color: var(--whiteColor);
+  font-weight: 600;
+  font-size: 3.8rem;
+  /* padding-bottom: 2.4rem; */
+ 
+}
+
+.hero-pink-section
+{
+  width: 100%;
+  padding: 0 8rem 0 8rem;
+  height: 100%;
+}
+
+.hero-pink-section-in
+{
+  width:100%;
+  height: auto;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+
+.hero-pink-button
+{
+  height: 3.6rem;
+  width: 10.656rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.hero-pink-button-inside
+{
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 500;
+ 
+}
+
+.hero-pink-button-section
+{
+  border-width: 0.1rem;
+  border-color: var(--whiteColor);
+  border-radius: 0.8rem;
+  text-align: center;
+  border-style: solid;
+  width: 10.656rem;
+  height: 3.6rem;
+  margin-left: 48rem;
+  margin-top: 2.4rem;
+  padding:0.8rem 1.3rem 0.8rem 1.3rem;
+  letter-spacing: 0.1px;
+  
+}
+.hero-pink-button-a
+{
+  color: var(--whiteColor);
 }
