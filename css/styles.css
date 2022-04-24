@@ -281,6 +281,51 @@ body {
   color: var(--blackColor);
 }
 
+
+
+/*  main-bottom-card-1/////////////////////////////////////////////////// */
+
+#giftcards {
+  padding-top: 9.6rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: var(--whiteColor);
+}
+
+.giftcard-section-left {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15.1rem;
+  align-items: flex-start;
+}
+
+.gitftcard-setion-btn {
+  padding: 1.4rem 2.4rem 1.4rem 2.4rem;
+  border-style: solid;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 0.8rem;
+  border-width: 0.1rem;
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+  letter-spacing: -0.02em;
+}
+
+.giftcard-left-text {
+  font-size: 5.3rem;
+  font-weight: 600;
+  text-align: start;
+  padding-bottom: 2.4rem;
+  letter-spacing: -0.02em;
+}
+
+
+.gifcard-pic {
+  width: 898px;
+  height: 337px;
+}
 /* main second card 2 */
 
 #question {
