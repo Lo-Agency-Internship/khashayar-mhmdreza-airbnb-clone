@@ -8,7 +8,7 @@
   --purpleCOlor: #6f019c;
   --violetColor: #c6017e;
   --lightGrayColor: rgb(247, 247, 247);
-  --darkGrayColor: rgb(235, 235, 235);
+  --darkGrayColor: rgb(178, 178, 178);
 }
 
 body {
@@ -281,8 +281,6 @@ body {
   color: var(--blackColor);
 }
 
-
-
 /*  main-bottom-card-1/////////////////////////////////////////////////// */
 
 #giftcards {
@@ -320,7 +318,6 @@ body {
   padding-bottom: 2.4rem;
   letter-spacing: -0.02em;
 }
-
 
 .gifcard-pic {
   width: 898px;
@@ -369,6 +366,76 @@ body {
   color: var(--blackColor);
 }
 
+
+
+
+/* main cities */
+
+#cities {
+  margin-top: 9.6rem;
+  background-color: white;
+}
+
+.cities-title {
+  font-size: 2.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.cities-group__title-group {
+  border-bottom: 2px solid rgb(178, 178, 178);
+}
+
+.title-group-item {
+  font-size: 1.4rem;
+  background-color: var(--whiteColor);
+  color: rgb(113, 113, 113);
+  text-decoration: none;
+  -webkit-appearance: none;
+}
+.title-group-item > span {
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 600;
+  margin: 0.6rem;
+  margin-left: -1rem;
+  padding: 1rem;
+  letter-spacing: 0.03rem;
+}
+
+.title-group-item > span:hover {
+  background-color: var(--lightGrayColor);
+}
+.title-group-item:focus > ::after {
+  content: "";
+  height: 2px;
+  background-color: rgb(34, 34, 34);
+}
+
+.cities-group__cities-group {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0.8rem;
+}
+.cities {
+  font-size: 1.6rem;
+  width: 25%;
+  padding-top: 2.4rem;
+}
+.cities-city {
+  color: rgb(34, 34, 34);
+}
+.cities-country {
+  padding-top: 0.2rem;
+  color: rgb(113, 113, 113);
+  font-weight: 100;
+}
+
+#more-btn > a {
+  color: #222222;
+  text-decoration: underline;
+}
 
 
 /* footer////////////////////////////////////////////// */
@@ -482,10 +549,6 @@ footer span{
 {
   margin-right: 0.8rem;
 }
-
-
-
-
 
 
 .footer-section-right-part2
