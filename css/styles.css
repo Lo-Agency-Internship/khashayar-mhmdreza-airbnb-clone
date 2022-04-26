@@ -27,6 +27,95 @@ body {
   margin: 0 8rem;
 }
 
+
+/*  */
+.navbar
+{
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.navbar-child
+{
+  width: 33%;
+  display: flex;
+}
+
+
+
+.header-profile
+{
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-logo>a
+{
+  color: var(--whiteColor);
+}
+
+
+.header-nav-item>button
+{
+ padding: 1rem 1.6rem  ;
+ background-color: var(--blackColor);
+ color: var(--whiteColor);
+ border: none;
+ font-size: 1.6rem;
+
+}
+
+
+
+.profile-host>a{
+color: var(--whiteColor);
+font-size: 1.6rem;
+}
+
+.profile-host
+{
+  padding: 1.2rem;
+}
+.profile-lang>button
+{
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+  border: 0;
+  padding: 1.2rem;
+}
+
+.profile-panel>button
+{
+border-radius: 2.1rem;
+background-color: var(--whiteColor);
+padding: 0.5rem 0.5rem 0.5rem 1.2rem;
+display: flex;
+align-items: center;
+}
+
+#pro
+{
+  margin-left:1.2rem
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* hero section */
 
 #house {
