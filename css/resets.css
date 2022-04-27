@@ -1,15 +1,15 @@
 @font-face {
   font-family: Circular;
-  src: url(../fonts/CircularStd-Medium.otf);
+  src: url(../fonts/Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2);
 }
 @font-face {
   font-family: Circular;
-  src: url(../fonts/CircularStd-Bold.otf);
+  src: url(../fonts/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2);
   font-weight: bold;
 }
 @font-face {
   font-family: Circular;
-  src: url(../fonts/CircularStd-Light.otf);
+  src: url(../fonts/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2);
   font-weight: light;
 }
 
@@ -22,7 +22,6 @@
 html {
   font-family: Cirucular, sans-serif;
   text-transform: none;
-  letter-spacing: -0.09rem;
   scroll-behavior: smooth;
   font-size: 62.5%;
 }
@@ -33,8 +32,14 @@ body {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 ul {
-  list-style-type:none ;
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
 }
