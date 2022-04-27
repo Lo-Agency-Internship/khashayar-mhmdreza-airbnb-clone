@@ -27,6 +27,10 @@ body {
   margin: 0 8rem;
 }
 
+.hidden {
+  display: none;
+}
+
 /*  */
 
 .nav {
@@ -43,15 +47,39 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-right: -27px;
 }
 
 .nav-middle-links-group {
   display: flex;
   justify-content: center;
-  margin-right: 0.2rem;
+  margin-right: 0.1rem;
 }
 .nav-middle-link {
-  padding: 0.7rem 1.6rem;
+  padding: 0.55rem 1.6rem;
+  position: relative;
+  font-weight: 400;
+}
+.nav-middle-link::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: var(--whiteColor);
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.nav-middle-link:hover::before {
+  left: 48%;
+  right: 48%;
 }
 .nav-middle-link > button,
 .nav-middle-link > a {
@@ -128,7 +156,7 @@ body {
 /* ---------------------------------------------------middle---------------------------------------------- */
 .nav-right {
   display: flex;
-  width: 25%;
+  width: 28%;
   font-size: 1.6rem;
   margin-right: -0.1rem;
   justify-content: end;
@@ -136,10 +164,16 @@ body {
 .nav-profile-item {
   padding: 0.6rem 1px;
 }
+
+.nav-link-host {
+  padding-top: 5px;
+  padding-right: 3px;
+}
 .nav-link-host > a {
   font-size: 1.4rem;
   letter-spacing: 0;
-  font-weight: 600;
+  font-weight: 500;
+  word-wrap: none;
 }
 .nav-link-lang {
   padding: 0.8rem;
@@ -165,6 +199,23 @@ body {
 
 #ham {
   margin-right: 1.2rem;
+}
+
+#pro {
+  position: relative;
+}
+#pro::before {
+  right: -3px;
+  top: -4px;
+  content: "";
+  position: absolute;
+  color: var(--pinkColor);
+  background-color: var(--pinkColor);
+  right: 4;
+  width: 10px;
+  height: 8.5px;
+  border: 2px solid white;
+  border-radius: 50%;
 }
 
 /* hero section */
@@ -236,6 +287,7 @@ body {
   width: 100%;
   background-color: #ff385c;
   border-radius: 1.2rem;
+  height: 382px;
 }
 
 .hero-pink-all {
@@ -244,7 +296,7 @@ body {
 }
 
 .hero-pink-section {
-  padding-top: 13.3rem;
+  padding-top: 12.85rem;
   padding-bottom: 13.3rem;
   display: flex;
   align-items: center;
@@ -253,16 +305,16 @@ body {
 }
 
 .hero-pink-section-text {
-  padding-bottom: 2.4rem;
+  padding-bottom: 2rem;
   font-size: 4.8rem;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--whiteColor);
   letter-spacing: -0.02em;
 }
 
 .hero-pink-section-btn {
-  font-weight: 400;
-  width: 101px;
+  font-weight: 500;
+  width: 106.5px;
   text-align: center;
   border-style: solid;
   font-size: 1.4rem;
