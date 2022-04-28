@@ -17,9 +17,7 @@ body {
     var(--blackColor) 0%,
     var(--blackColor) 21.09%,
     var(--whiteColor) 21.09%,
-    var(--whiteColor) 90%,
-    var(--lightGrayColor) 90%,
-    var(--lightGrayColor) 100%
+    var(--whiteColor) 100%
   );
 }
 
@@ -238,28 +236,29 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 47.5rem;
+  padding-top: 47.3rem;
   padding-bottom: 7.5rem;
   z-index: 1;
 }
 
 .hero-title {
   color: var(--whiteColor);
-  font-size: 4.52rem;
+  font-size: 4.8rem;
   line-height: 5.4rem;
   text-align: center;
-  font-weight: bold;
+  font-weight: 500;
+  letter-spacing: -0.96px;
 }
 
 .hero-btn {
   padding: 1.4rem 3.2rem;
   background-color: var(--whiteColor);
-  border-radius: 25px;
+  border-radius: 30px;
   display: inline;
   font-size: 1.8rem;
   max-width: fit-content;
   font-size: 2rem;
-  margin-top: 3.1rem;
+  margin-top: 2.5rem;
 }
 
 .hero-btn:hover {
@@ -278,12 +277,16 @@ body {
   -webkit-background-clip: text;
   padding: 0;
   font-weight: 600;
+  font-size: 1.8rem;
   width: 100%;
+  margin-bottom: 3px;
+  padding: 0 0.2rem;
+  margin-top: 1px;
 }
 
 /* ////////////////////////////////////////////////////////// */
 #ukraine {
-  margin-top: 76px;
+  margin-top: 76.5px;
   width: 100%;
   background-color: #ff385c;
   border-radius: 1.2rem;
@@ -296,7 +299,7 @@ body {
 }
 
 .hero-pink-section {
-  padding-top: 12.85rem;
+  padding-top: 12.8rem;
   padding-bottom: 13.3rem;
   display: flex;
   align-items: center;
@@ -328,7 +331,7 @@ body {
 /* main card 1////////////////////////////////////////////////// */
 
 .hero3 {
-  padding-top: 9.6rem;
+  padding-top: 9.7rem;
 }
 
 .main-card1-part1 {
@@ -343,7 +346,7 @@ body {
   letter-spacing: -0.84px;
   line-height: 47px;
   margin-top: -5px;
-  color: rgb(48, 48, 48);
+  color: rgb(34, 34, 34);
 }
 
 .main-card1-part2 {
@@ -359,9 +362,12 @@ body {
   grid-template-columns: 4;
   grid-column: 24px;
   border-radius: 20px;
+  height: 429.05px;
+  width: 321.8px;
 }
 
 .main-card1-part2-photo-down {
+  margin-bottom: 3px;
   width: 100%;
   padding: 24px 16px 16px;
   border-radius: 12px;
@@ -385,7 +391,7 @@ body {
 
 .main-card1-part2-photo-updown {
   width: 100%;
-  padding-bottom: 10rem;
+  padding-bottom: 9rem;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
 }
@@ -393,10 +399,13 @@ body {
 .main-card1-part2-photo-up {
   height: 21.3rem;
 }
+.main-card1-part2-photo-up > img {
+  width: 100%;
+}
 
 .main-card1-part2-down-text1 {
   font-size: 35px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--whiteColor);
   padding-bottom: 12px;
 }
@@ -422,9 +431,10 @@ body {
 #experience__title {
   font-size: 4.2rem;
   margin-bottom: 4.8rem;
+  font-weight: 500;
   line-height: 47px;
   letter-spacing: -0.84px;
-  color: rgb(48, 48, 48);
+  color: rgb(34, 34, 34);
 }
 
 .experience__card-group {
@@ -446,7 +456,9 @@ body {
 .card-group__item__text {
   width: 70%;
   font-size: 5.3rem;
-  font-weight: bold;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -1.06px;
   color: var(--whiteColor);
 }
 
@@ -477,7 +489,7 @@ body {
   font-weight: 600;
   letter-spacing: 0.5px;
   padding: 1.4rem 2.4rem;
-  color: var(--blackColor);
+  color: rgb(34, 34, 34);
 }
 
 /*  main-bottom-card-1/////////////////////////////////////////////////// */
@@ -502,20 +514,25 @@ body {
   border-style: solid;
   text-align: center;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 0.8rem;
   border-width: 0.1rem;
-  background-color: var(--blackColor);
+  background-color: rgb(34, 34, 34);
   color: var(--whiteColor);
   letter-spacing: -0.02em;
+  cursor: pointer;
+}
+.gitftcard-setion-btn:hover {
+  background-color: #000000;
 }
 
 .giftcard-left-text {
   font-size: 5.3rem;
-  font-weight: 600;
+  font-weight: 500;
   text-align: start;
   padding-bottom: 2.4rem;
   letter-spacing: -0.02em;
+  color: rgb(34, 34, 34);
 }
 
 .gifcard-pic {
@@ -541,7 +558,9 @@ body {
 
 .question-title {
   font-size: 9.5rem;
-  font-weight: 600;
+  font-weight: 500;
+  line-height: 98px;
+  letter-spacing: -1.9px;
   width: 30%;
   color: var(--whiteColor);
 }
@@ -553,7 +572,7 @@ body {
   max-width: fit-content;
 }
 .question-btn:hover {
-  background-color: var(--darkGrayColor);
+  background-color: rgb(235, 235, 235);
 }
 
 .question-btn > span {
@@ -574,6 +593,7 @@ body {
 
 .cities-title {
   font-size: 2.2rem;
+  font-weight: 500;
   margin-bottom: 0.6rem;
 }
 
@@ -593,7 +613,7 @@ body {
   border: none;
   cursor: pointer;
   border-radius: 6px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0.6rem;
   margin-left: -1rem;
   padding: 1rem;
@@ -613,19 +633,24 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding-top: 0.8rem;
+  margin-bottom: 8rem;
 }
 .cities {
   font-size: 1.6rem;
   width: 25%;
+  margin-right: 10px;
   padding-top: 2.4rem;
+  width: 327.8px;
 }
 .cities-city {
   color: rgb(34, 34, 34);
+  font-size: 14px;
 }
 .cities-country {
   padding-top: 0.2rem;
   color: rgb(113, 113, 113);
   font-weight: 100;
+  font-size: 14px;
 }
 
 #more-btn > a {
@@ -635,6 +660,8 @@ body {
 
 /* footer////////////////////////////////////////////// */
 #footer {
+  padding: 0 80px !important;
+  background-color: var(--lightGrayColor);
   display: flex;
   flex-direction: column;
   padding: 1.8rem 0 0 0;
@@ -652,7 +679,6 @@ body {
 .footer-section-part {
   display: flex;
   flex-direction: column;
-  padding: 0 1.2rem 0 1.2rem;
   width: 30%;
 }
 
