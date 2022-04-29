@@ -510,7 +510,7 @@ body {
 }
 
 .gitftcard-setion-btn {
-  padding: 1.4rem 2.4rem 1.4rem 2.4rem;
+  padding: 1.3rem 2.3rem 1.3rem 2.3rem;
   border-style: solid;
   text-align: center;
   font-size: 1.6rem;
@@ -519,7 +519,7 @@ body {
   border-width: 0.1rem;
   background-color: rgb(34, 34, 34);
   color: var(--whiteColor);
-  letter-spacing: -0.02em;
+ 
   cursor: pointer;
 }
 .gitftcard-setion-btn:hover {
@@ -535,9 +535,14 @@ body {
   color: rgb(34, 34, 34);
 }
 
+.giftcard-left-section
+{
+  line-height: 60px;
+}
+
 .gifcard-pic {
-  width: 898px;
-  height: 337px;
+  width: 907px;
+  height: 340px;
 }
 /* main second card 2 */
 
@@ -545,7 +550,7 @@ body {
   background-image: url(../images/questions.jpg);
   background-position: center;
   background-size: cover;
-  margin-top: 9.6rem;
+  margin-top: 9.22rem;
   border-radius: 12px;
 }
 
@@ -579,11 +584,10 @@ body {
   display: inline-block;
   font-size: 1.57rem;
   font-weight: 500;
-  letter-spacing: 0.5px;
-  padding: 1.4rem 2.4rem;
+  letter-spacing: 0.2px;
+  padding: 1.36rem 2.37rem;
   color: var(--blackColor);
 }
-
 /* main cities */
 
 #cities {
@@ -633,7 +637,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding-top: 0.8rem;
-  margin-bottom: 8rem;
+  margin-bottom: 7.0rem;
 }
 .cities {
   font-size: 1.6rem;
@@ -697,14 +701,17 @@ footer h3 {
 
 .footer-section-down {
   border-top: 1px solid rgb(221, 221, 221);
-  padding: 2.4rem 0 2.4rem 0;
+  padding: 1.7rem 0 2.4rem 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-section-down-left {
   display: flex;
   text-align: left;
+  align-items: center;
+  margin-top: 0.35rem;
 }
 .footer-section-down-left div {
   font-size: 1.4rem;
@@ -713,7 +720,7 @@ footer h3 {
 .footer-section-down-left span {
   text-align: center;
   font-size: 1.4rem;
-  padding-bottom: 2px;
+  margin-bottom: 6px;
 }
 
 footer span {
@@ -727,6 +734,7 @@ footer span {
 
 .footer-section-down-right {
   display: flex;
+  padding-top: 3px;
 }
 
 .footer-section-part1-left {
@@ -736,6 +744,7 @@ footer span {
 }
 .footer-section-part1-left div:nth-of-type(1) {
   margin-right: 0.8rem;
+  padding-top: 0.05rem;
 }
 
 .footer-section-part1-right {
@@ -745,9 +754,16 @@ footer span {
 .footer-section-part1-right div:nth-of-type(1) {
   margin-right: 0.8rem;
 }
+.text-style-footer
+{
+  text-decoration: underline !important;
+  text-decoration-color: var(--blackColor);
+  font-weight: 500;
+}
 
 .footer-section-right-part2 {
-  margin-left: 3.2rem;
+  margin-left: 2.4rem;
+  
 }
 
 .footer-section-right-part2 li:not(:last-child) {
