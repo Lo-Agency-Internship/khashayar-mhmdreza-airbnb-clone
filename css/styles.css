@@ -600,7 +600,7 @@ body {
 /* main cities */
 
 #cities {
-  margin-top: 9.6rem;
+  margin-top: 4.8rem;
   background-color: white;
 }
 
@@ -624,7 +624,7 @@ body {
   background-color: var(--whiteColor);
   color: rgb(113, 113, 113);
   text-decoration: none;
-  margin-right: 9px;
+  margin-right: 7px;
   -webkit-appearance: none;
 }
 .title-group-item > span {
@@ -691,7 +691,7 @@ body {
 }
 
 .footer-section-up {
-  padding: 4.8rem 0 4.8rem 0;
+  padding: 4.8rem 0 4.7rem 0;
   margin: 0;
   width: 100%;
   display: flex;
@@ -718,8 +718,12 @@ footer h3 {
   font-size: 1.36rem;
   font-weight: inherit;
   letter-spacing: 0.02rem;
+ 
 }
-
+.footer-section-part-ul li:hover
+{
+  text-decoration: underline var(--blackColor);
+}
 .footer-section-down {
   border-top: 1px solid rgb(221, 221, 221);
   padding: 1.9rem 0 2.2rem 0;
@@ -762,6 +766,11 @@ footer span {
   
   margin-right: 2.4rem;
   
+}
+
+.footer-section-down-left-link:hover
+{
+  text-decoration: underline var(--blackColor);
 }
 .footer-section-part1-left-in
 {
