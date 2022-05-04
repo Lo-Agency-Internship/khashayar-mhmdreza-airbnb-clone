@@ -15,8 +15,8 @@ body {
   background: linear-gradient(
     to bottom,
     var(--blackColor) 0%,
-    var(--blackColor) 21.05%,
-    var(--whiteColor) 21.05%,
+    var(--blackColor) 21.35%,
+    var(--whiteColor) 21.35%,
     var(--whiteColor) 100%
   );
 }
@@ -392,7 +392,7 @@ body {
 
 .main-card1-part2-photo-updown {
   width: 100%;
-  padding-bottom: 8.9rem;
+  padding-bottom: 9rem;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   margin-top: -3px;
@@ -406,7 +406,8 @@ body {
   font-size: 27px;
   font-weight: 500;
   color: var(--whiteColor);
-  padding-bottom: 7px;
+  padding-bottom: 6px;
+  letter-spacing:-0.2px;
 }
 
 .main-card1-part2-down-text2 {
@@ -455,7 +456,7 @@ body {
   padding: 4rem;
   display: flex;
   flex-direction: column;
-  padding-bottom: 37.7rem;
+  padding-bottom: 37.9rem;
   border-radius: 12px;
   min-width: 48.991%;
 }
@@ -482,15 +483,19 @@ body {
   background-color: rgb(235, 235, 235);
 }
 
-.card-btn > span {
+.card-btn-in {
   display: inline-block;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: normal;
-  padding: 1.4rem 2.2rem;
+  padding: 1.3rem 2.2rem 1.4rem 2.4rem;
   color: rgb(34, 34, 34);
 }
 
+
+.card-btn-in >span {
+  margin-right:2px ;
+}
 /*  main-bottom-card-1/////////////////////////////////////////////////// */
 
 #giftcards {
@@ -544,8 +549,8 @@ body {
 }
 .gifcard-pic {
   width: auto;
-  height: 350px;
-  right: -175px;
+  height: 370px;
+  right: -182px;
   position: absolute;
   object-fit: cover;
   object-position: center center;
@@ -557,7 +562,7 @@ body {
   background-image: url(../images/questions.jpg);
   background-position: center;
   background-size: cover;
-  margin-top: 9.6rem;
+  margin-top: 13.4rem;
   width: 100vw;
   margin-left: -80px;
 }
@@ -576,6 +581,7 @@ body {
   letter-spacing: -1.48px;
   width: 30%;
   color: var(--whiteColor);
+  
 }
 
 .question-btn {
@@ -593,14 +599,13 @@ body {
   font-size: 1.57rem;
   font-weight: 500;
   letter-spacing: 0.2px;
-  padding: 1.36rem 2.37rem;
-  padding-top: 1.35rem;
+  padding: 1.32rem 2.37rem 1.36rem 2.37rem;
   color: rgb(34, 34, 34);
 }
 /* main cities */
 
 #cities {
-  margin-top: 9.6rem;
+  margin-top: 4.7rem;
   background-color: white;
 }
 
@@ -624,7 +629,7 @@ body {
   background-color: var(--whiteColor);
   color: rgb(113, 113, 113);
   text-decoration: none;
-  margin-right: 9px;
+  margin-right: 7px;
   -webkit-appearance: none;
 }
 .title-group-item > span {
@@ -691,7 +696,7 @@ body {
 }
 
 .footer-section-up {
-  padding: 4.8rem 0 4.8rem 0;
+  padding: 4.8rem 0 4.7rem 0;
   margin: 0;
   width: 100%;
   display: flex;
@@ -718,8 +723,12 @@ footer h3 {
   font-size: 1.36rem;
   font-weight: inherit;
   letter-spacing: 0.02rem;
+ 
 }
-
+.footer-section-part-ul li:hover
+{
+  text-decoration: underline var(--blackColor);
+}
 .footer-section-down {
   border-top: 1px solid rgb(221, 221, 221);
   padding: 1.9rem 0 2.2rem 0;
@@ -755,13 +764,18 @@ footer span {
 
 .footer-section-down-right {
   display: flex;
-
+  padding-top:3px;
 }
 
 .footer-section-part1-left {
   
   margin-right: 2.4rem;
   
+}
+
+.footer-section-down-left-link:hover
+{
+  text-decoration: underline var(--blackColor);
 }
 .footer-section-part1-left-in
 {
@@ -770,7 +784,6 @@ footer span {
 }
 .footer-section-part1-left div:nth-of-type(1) {
   margin-right: 0.8rem;
-  padding-top: 0.05rem;
 }
 
 .footer-section-part1-right {
