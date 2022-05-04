@@ -45,15 +45,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: -27px;
+  margin-right: -68px;
 }
 
 .nav-middle-links-group {
   display: flex;
   justify-content: center;
   margin-right: 0.1rem;
-  margin-right: -30px;
   margin-top: -1px;
+  margin-right: 2px;
 }
 .nav-middle-link {
   padding: 0.55rem 1.6rem;
@@ -93,33 +93,56 @@ body {
   border: none;
   outline: none;
   font-size: 14px;
+  line-height: 18px;
+  font-family: Circular, sans-serif;
+  font-weight: 400;
 }
 
 .nav-middle-searchbar {
   margin-top: 2.4rem;
+  border: 1px solid black;
 }
 .nav-middle-searchbar {
   background-color: var(--whiteColor);
-  border-radius: 3.1rem;
+  border-radius: 3.2rem;
 }
 
 .nav-middle-searchbar-group {
-  padding: 0.9rem 0;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
 }
 .searchbar-item__location {
   padding: 0 3.2rem;
-  padding-right: 6.5rem;
-  border-right: 1px solid rgb(184, 184, 184);
 }
-.searchbar-item__check-in {
-  border-right: 1px solid rgb(184, 184, 184);
+.searchbar-item__location >* {
+  width: 203.98px;
 }
-.searchbar-item__check-out {
-  padding-left: 3.2rem;
+.divider{
+  position: relative;
 }
+.divider::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  border-right: 1px solid rgb(221, 221, 221);
+  height: 32px;
+  top: 2px;
+}
+.searchbar-item__check-in-item{
+  padding: 0rem 2.4rem;
+  padding-left: 2.5rem;
+}
+.searchbar-item__check-in-item > *{
+  width: 130.16px;
+}
+.searchbar-item__check-out-item > *{
+  width: 130.16px;
+}
+.searchbar-item__check-out-item{
+  padding: 0rem 2.4rem;
+}
+
 .dates {
   display: flex;
   padding-left: 2.4rem;
@@ -127,23 +150,26 @@ body {
 }
 
 #guests {
-  margin-right: -25px;
+  padding: 1.5rem 2.4rem;
 }
 
+#guests >* {
+  width: 121.72px;
+}
 .input-title {
   font-size: 1.2rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
   letter-spacing: 0.48px;
+  padding-bottom: 0.2rem;
 }
 
 #searchbar-last {
   display: flex;
   align-items: center;
-  padding-left: 2.4rem;
 }
 #search-btn {
-  margin-right: 0.6rem;
+  margin-right: 0.9rem;
+  margin-left: -4px;
 }
 #search-btn > button {
   font-size: 1.6rem;
@@ -166,8 +192,11 @@ body {
 }
 
 .nav-link-host {
-  padding-top: 5px;
+  padding-top: 7px;
   padding-right: 3px;
+}
+.nav-link-host > a >div {
+  width: 99.33px;
 }
 .nav-link-host > a {
   font-size: 1.4rem;
@@ -290,8 +319,11 @@ body {
 }
 
 /* ////////////////////////////////////////////////////////// */
+
+main{
+  margin-top: 75px;
+}
 #ukraine {
-  margin-top: 76.5px;
   width: 100%;
   background-color: #ff385c;
   border-radius: 1.2rem;
