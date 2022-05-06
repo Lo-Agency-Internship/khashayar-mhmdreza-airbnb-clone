@@ -45,7 +45,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: -68px;
+  margin-right: -83px;
 }
 
 .nav-middle-links-group {
@@ -53,21 +53,23 @@ body {
   justify-content: center;
   margin-right: 0.1rem;
   margin-top: -1px;
-  margin-right: 2px;
+  margin-right: 1.5px;
 }
 .nav-middle-link {
   padding: 0.55rem 1.6rem;
   position: relative;
   font-weight: 400;
+  z-index: 500;
 }
+
 .nav-middle-link::before {
   content: "";
   position: absolute;
   z-index: 0;
   left: 51%;
   right: 51%;
-  bottom: 0;
-  background: var(--whiteColor);
+  bottom: -5px;
+  background: rgb(141, 141, 141);
   height: 2px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -76,11 +78,15 @@ body {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+.nav-middle-link:hover > * {
+  color: rgb(141, 141, 141);
+}
 
 .nav-middle-link:hover::before {
-  left: 48%;
-  right: 48%;
+  left: 12%;
+  right: 12%;
 }
+
 .nav-middle-link > button,
 .nav-middle-link > a {
   font-size: 1.6rem;
@@ -88,6 +94,15 @@ body {
   color: var(--whiteColor);
 }
 
+.nav-middle-link:first-of-type::before {
+  background: white;
+  left: 12%;
+  right: 12%;
+}
+.nav-middle-link:first-of-type:hover >* {
+  color: white;
+
+}
 /* ---------------------------------------------------------searchbar---------------------------------------- */
 .searchbar-inputs {
   border: none;
@@ -137,6 +152,7 @@ body {
 }
 .searchbar-item__location {
   padding: 0 3.2rem;
+  padding-right: 33px;
 }
 .searchbar-item__location >* {
   width: 203.98px;
@@ -153,8 +169,8 @@ body {
   top: 2px;
 }
 .searchbar-item__check-in-item{
-  padding: 0rem 2.4rem;
-  padding-left: 2.5rem;
+  padding-right: 25px;
+  padding-left: 24px;
 }
 .searchbar-item__check-in-item > *{
   width: 130.16px;
@@ -164,6 +180,7 @@ body {
 }
 .searchbar-item__check-out-item{
   padding: 0rem 2.4rem;
+  padding-right: 2.5rem;
 }
 
 .dates {
@@ -173,7 +190,8 @@ body {
 }
 
 #guests {
-  padding: 0rem 2.4rem;
+  padding: 1.5rem 2.4rem;
+  padding-right: 23.5px;
 }
 
 #guests >* {
@@ -184,14 +202,17 @@ body {
   font-weight: 600;
   letter-spacing: 0.48px;
   padding-bottom: 0.2rem;
+  color: #242424;
 }
 
 #searchbar-last {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 #search-btn {
   margin-right: 0.9rem;
+  position: relative;
   margin-left: -4px;
   z-index: 200;
 }
