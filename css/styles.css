@@ -562,8 +562,7 @@ main{
 }
 
 .card-group__item {
-  background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   padding: 4rem;
   display: flex;
@@ -672,8 +671,8 @@ main{
 
 #question {
   background-image: url(../images/questions.jpg);
-  background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin-top: 13.4rem;
   width: 100vw;
   margin-left: -80px;
