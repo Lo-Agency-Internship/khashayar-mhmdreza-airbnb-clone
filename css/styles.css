@@ -134,9 +134,19 @@ body {
   border-radius: 3.2rem;
   
 }
+.searchbar-item:last-of-type:hover
+{
+  background-color:transparent;
+  
+}
 .searchbar-item:hover input
 {
   background-color: rgb(231, 231, 231);
+}
+
+.searchbar-item:last-of-type:hover input
+{
+  background-color: transparent;
 }
 
 .searchbar-item:last-of-type
@@ -193,6 +203,16 @@ body {
   padding: 1.5rem 2.4rem;
   padding-right: 23.5px;
 }
+.hovering:hover{
+  background-color: rgb(231, 231, 231);
+  border-top-left-radius: 3.2rem;
+  border-bottom-left-radius: 3.2rem;
+  border-top-right-radius: 3.2rem;
+  border-bottom-right-radius: 3.2rem;
+}
+.hovering:hover + #search-btn{
+  background-color: rgb(231, 231, 231);
+}
 
 #guests >* {
   width: 121.72px;
@@ -211,10 +231,15 @@ body {
   cursor: pointer;
 }
 #search-btn {
-  margin-right: 0.9rem;
+  padding-right: 0.9rem;
   position: relative;
   margin-left: -4px;
+  padding: 9px 0;
+  padding-left: 45px;
+  margin-left: -48px;
+  padding-right: 0.9rem;
   z-index: 200;
+  border-radius: 4.2rem;
 }
 
 .search-btn-in {
