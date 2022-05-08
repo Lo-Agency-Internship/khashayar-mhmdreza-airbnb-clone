@@ -871,6 +871,7 @@ footer h3 {
   font-size: 1.4rem;
   font-weight: 800;
   line-height: 1.8rem;
+  color: rgb(34, 34, 34);
 }
 
 .footer-section-part-ul li {
@@ -928,9 +929,14 @@ footer span {
   
 }
 
+.footer-section-down-left-link{
+  color: rgb(34, 34, 34);
+}
+
 .footer-section-down-left-link:hover
 {
-  text-decoration: underline var(--blackColor);
+  text-decoration: underline rgb(34, 34, 34);
+  
 }
 .footer-section-part1-left-in
 {
