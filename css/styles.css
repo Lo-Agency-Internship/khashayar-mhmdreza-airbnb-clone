@@ -134,6 +134,13 @@ body {
   border-radius: 3.2rem;
   
 }
+
+.searchbar-item:hover::before , .searchbar-item:hover + .searchbar-item::before
+{
+  height: 0;
+}
+
+
 .searchbar-item:last-of-type:hover
 {
   background-color:transparent;
@@ -170,13 +177,13 @@ body {
 .divider{
   position: relative;
 }
-.divider::after{
+.divider::before{
   content: '';
   position: absolute;
-  right: 0;
   border-right: 1px solid rgb(221, 221, 221);
   height: 32px;
-  top: 2px;
+  top: 17px;
+  left: -1px;
 }
 .searchbar-item__check-in-item{
   padding-right: 25px;
@@ -587,7 +594,7 @@ main{
 }
 
 .card-group__item {
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 4rem;
   display: flex;
@@ -640,6 +647,7 @@ main{
   align-items: flex-start;
   justify-content: space-between;
   background-color: var(--whiteColor);
+  
 }
 
 .giftcard-section-left {
@@ -685,8 +693,8 @@ main{
 }
 .gifcard-pic {
   width: auto;
-  height: 370px;
-  right: -182px;
+  height: 354px;
+  right: -80px;
   position: absolute;
   object-fit: cover;
   object-position: center center;
@@ -971,7 +979,7 @@ footer span {
 }
 
 footer a {
-  color: var(--blackColor);
+  color: rgb(34, 34, 34);
 }
 
 .footer-section-right-ul {
